@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Tech Amplifier`,
-    description: `A A platform that amplifiers innovations and technologies developed in emerging tech ecosystems in Africa.`,
+    description: `A platform that amplifiers innovations and technologies developed in emerging tech ecosystems in Africa.`,
     author: `@techamplifier`,
   },
   plugins: [
