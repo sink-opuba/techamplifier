@@ -1,8 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `Tech Amplifier`,
-    description: `A platform that amplifiers innovations and technologies developed in emerging tech ecosystems in Africa.`,
+    description: `TechAmplifier - A platform that amplifies innovations and technologies developed in emerging tech ecosystems in Africa.`,
     author: `@techamplifier`,
+    twitterUsername: `@techamplifier`,
+    url: "https://techamplifier.africa",
+    image: `src/images/waffiihub-icon.png`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
