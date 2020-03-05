@@ -52,11 +52,11 @@ const Layout = ({ children }) => {
             </div>
             <div className={LayoutStyle.contactFormContainer}>
               <h3>Stay Updated</h3>
-              <p>Stay updated on our activities,news, events and more.</p>
+              <p>Stay updated on our activities, news, events and more.</p>
               <form
                 className={LayoutStyle.contactForm}
                 name="NewsLetter"
-                netlify
+                data-netlify="true"
               >
                 <div>
                   <input

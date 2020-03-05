@@ -3,9 +3,9 @@
 }
 
 .footer {
-  //   border: 1px solid red;
   border-top: 1px solid grey;
   padding: 3rem 5rem 0rem;
+  margin-top: 2rem;
 }
 
 .contact {
@@ -55,11 +55,11 @@
 .contactForm {
   & div {
     display: inline-block;
-    margin-top: .8rem;
+    margin-top: 0.8rem;
   }
 
   & input {
-    padding: 0.8rem 0.9rem;
+    padding: 0.74rem 0.9rem;
     outline: none;
     font-size: 1.1rem;
     &::placeholder {
@@ -95,15 +95,31 @@
 
 @media only screen and (max-width: 768px) {
   .footer {
-    padding: 3rem 1rem 2rem;
+    padding: 2rem 1rem 2rem;
   }
   .contact {
     flex-direction: column;
+    & h3 {
+      font-size: 2.1rem;
+    }
   }
   .contact-socials {
     flex-direction: column;
   }
   .copyright {
     flex-direction: column;
+  }
+  .copyright {
+      p {
+          font-size: 1rem;
+      }
+  }
+}
+
+@media only screen and (max-width: 348px) {
+  .contact {
+    & h3 {
+      font-size: 2rem;
+    }
   }
 }
