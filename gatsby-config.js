@@ -4,7 +4,7 @@ module.exports = {
     description: `TechAmplifier - A platform that amplifies innovations and technologies developed in emerging tech ecosystems in Africa.`,
     author: `@techamplifier`,
     twitterUsername: `@techamplifier`,
-    url: "https://techamplifier.africa",
+    siteUrl: "https://techamplifier.africa",
     image: `src/images/waffiihub-icon.png`,
   },
   plugins: [
@@ -25,13 +25,13 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     name: "blog",
-    //     path: `${__dirname}/blog/`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: "blog",
+        path: `${__dirname}/blog/`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
