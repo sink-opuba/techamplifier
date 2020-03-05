@@ -56,8 +56,16 @@ const Layout = ({ children }) => {
               <form
                 className={LayoutStyle.contactForm}
                 name="NewsLetter"
+                method="POST"
+                netlify-honeypot="bot-field"
                 data-netlify="true"
               >
+                <p className="hidden">
+                  <label>
+                    Don’t fill this out if you're human:{" "}
+                    <input name="bot-field" />
+                  </label>
+                </p>
                 <div>
                   <input
                     name="email"
