@@ -1,11 +1,38 @@
 .container {
-  padding: 1rem;
+  display: flex;
 }
 
+.aside-menu {
+  margin-top: 3rem;
+  padding: 1.6rem;
+  min-width: 20rem;
+}
+
+.menu-list {
+  list-style-type: none;
+  & li {
+    padding: .8rem;
+
+  }
+
+  & a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #383737dc;
+  }
+  & a:hover {
+    color: #242121dc;
+    border-bottom: 1px solid #383737dc;
+  }
+}
+
+.main {
+  flex-grow: 1;
+}
 .footer {
   border-top: 1px solid grey;
   padding: 3rem 5rem 0rem;
-  margin-top: 2rem;
+  margin: 2rem 1rem 1rem;
 }
 
 .contact {

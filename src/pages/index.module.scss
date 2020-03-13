@@ -1,0 +1,20 @@
+.container {
+    padding-top: 3rem;
+    border-top: 2px solid #e3e3e3;
+    margin: 0rem 1rem;
+}
+
+.main-article {
+    max-width: 65rem;
+}
+.main-article-heading {
+    font-size: 5rem;
+    font-weight: 800;
+}
+.articles-container {
+    margin: 3rem 0rem;
+}
+.article {
+    display: flex;
+    border: 1px solid red;
+}

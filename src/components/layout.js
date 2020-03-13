@@ -18,11 +18,21 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div className={LayoutStyle.container}>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <main>{children}</main>
+        <div className={LayoutStyle.container}>
+        <aside className={LayoutStyle.asideMenu}>
+            <ul className={LayoutStyle.menuList}>
+              <li><a href="/">Home</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </aside>
+        <main className={LayoutStyle.main}>
+          {children}
+          </main>
+        </div>
         <footer className={LayoutStyle.footer}>
-          <div className={LayoutStyle.contact}>
+          <div id="contact" className={LayoutStyle.contact}>
             <div className={LayoutStyle.contactSocials}>
               <h3>Connect With Us</h3>
               <ul className={LayoutStyle.contactSocialsList}>
@@ -94,7 +104,6 @@ const Layout = ({ children }) => {
             </p>
           </div>
         </footer>
-      </div>
     </>
   )
 }
