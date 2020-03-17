@@ -18,12 +18,14 @@ const Layout = ({ children }) => {
 
   return (
     <>
-        <Header siteTitle={data.site.siteMetadata.title} />
+      <div className={LayoutStyle.techamplifierLayout}>
+      <Header siteTitle={data.site.siteMetadata.title} />
         <div className={LayoutStyle.container}>
         <aside className={LayoutStyle.asideMenu}>
             <ul className={LayoutStyle.menuList}>
               <li><a href="/">Home</a></li>
-              <li><a href="#">Events</a></li>
+              <li><a href="#events">Events</a></li>
+              <li><a href="#startups">Startups</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </aside>
@@ -104,6 +106,8 @@ const Layout = ({ children }) => {
             </p>
           </div>
         </footer>
+      </div>
+        
     </>
   )
 }

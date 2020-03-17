@@ -94,15 +94,17 @@
     }
   }
   & button {
-    padding: 0.9rem;
+    padding: 0.8rem;
     background-color: #2957a4;
-    border: none;
+    border: 1px solid #2957a4;
     cursor: pointer;
     color: #ffffff;
     font-size: 1.1rem;
+    transition: all .3s ease;
   }
   & button:hover {
-    opacity: 0.8;
+    color: #2957a4;
+    background-color: #ffffff;
   }
 }
 .copyright {
@@ -121,6 +123,12 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .container {
+    display: block;
+  }
+  .aside-menu {
+    display: none;
+  }
   .footer {
     padding: 2rem 1rem 2rem;
   }

@@ -13,8 +13,115 @@
 }
 .articles-container {
     margin: 3rem 0rem;
+    max-width: 90rem;
 }
+
+.articles-container > h3 {
+    font-size: 1.8rem;
+}
+
 .article {
     display: flex;
-    border: 1px solid red;
+    justify-content: space-between;
+    border-top: 2px solid #e3e3e3;
+    border-bottom: 2px solid #e3e3e3;
+    padding: 2.2rem 0rem;
+}
+.article:hover {
+    cursor: pointer;
+    opacity: .6;
+}
+
+.article-paragraph {
+    font-size: 2.1rem;
+    line-height: 2rem;
+    margin-right: 2rem;
+    opacity: .7;
+    flex-basis: 55%;
+}
+
+.articleHeader {
+    flex-basis: 32%;
+    padding-right: 1.5rem;
+}
+.articleHeading {
+    font-size: 2.8rem;
+}
+.articleAuthor {
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+.articleDate {
+    font-size: 1rem;
+}
+
+.article-image-box {
+    flex-basis: 32%;
+    max-width: 100%;
+}
+
+.load-more-box {
+    text-align: center;
+    margin-top: 2.4rem;
+    & button {
+        padding: 1rem 3rem;
+        font-size: 1.8rem;
+        border-radius: 3px;
+        color: #ffffff;
+        background-color: #2957a4;
+        outline: none;
+        border: 1px solid #2957a4;
+        transition: all .3s ease;
+    }
+
+    & button:hover, & button:active {
+        cursor: pointer;
+        color: #2957a4;
+        background-color: transparent;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding-top: 2.8rem;
+        border-top: none;
+    }
+    
+    .main-article {
+        width: 100%;
+        padding: 1rem;
+    }
+    .main-article-heading {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .articles-container > h3 {
+        font-size: 1.4rem;
+    }
+    .article {
+        padding: 1.8rem 0;
+    }
+    .articleHeader {
+        flex-basis: 70%;
+    }
+    .articleHeading {
+        font-size: 1.6rem;
+        font-weight: 500;
+        margin-bottom: .8rem;
+    }
+    .article-paragraph {
+        display: none;
+    }
+    .articleAuthor {
+        font-size: 1.4rem;
+        margin: 0;
+    }
+    .articleDate {
+        margin-top: .6rem;
+    }
+
+    .load-more-box button {
+        font-size: 1.5rem;
+        padding: .8rem 2.5rem;
+    }
 }

@@ -3,7 +3,7 @@ backend:
   repo: sink-opuba/techamplifier
 
 media_folder: static/assets
-public_folder: /assets
+public_folder: ../static/assets
 site_url: https://techamplifier.africa
 display_url: https://techamplifier.africa
 logo_url: https://res.cloudinary.com/waffiihub/image/upload/v1579554011/waffiihub-text-logo_qn3f3p.png
