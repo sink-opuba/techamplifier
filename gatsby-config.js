@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `Tech Amplifier`,
@@ -12,6 +16,12 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: process.env.GATSBY_DISQUS_NAME
+      }
+    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -61,12 +71,6 @@ module.exports = {
             maxWidth: 700,
             linkImagesToOriginal: false,
           },
-        },
-        {
-          resolve: `gatsby-plugin-disqus`,
-          options: {
-            shortname: process.env.GATSBY_DISQUS_NAME
-          }
         },
       ],
     },

@@ -20,6 +20,7 @@ collections:
       - { name: description, label: Description, widget: "text" }
       - { name: tag, label: "Tag (insight or news)", widget: "text" }
       - { name: "featuredimage", label: "Featured Image", widget: image }
+      - { name: "imagedescription", label: "Image Description", widget: "text"}
       - { name: body, label: Body, widget: markdown }
       - { name: author, label: "Author's Name" }
       - { name: "authorrole", label: "Author's Role" }

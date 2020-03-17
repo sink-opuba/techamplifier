@@ -4,6 +4,7 @@ date: 2020-03-03T06:19:29.831Z
 title: The new Delta, What is really new?
 description: the new delta
 featuredimage: ../static/assets/warri.jpg
+imagedescription: Arial view of warri
 tag: news
 author: Akpos Robot
 authorrole: Editor

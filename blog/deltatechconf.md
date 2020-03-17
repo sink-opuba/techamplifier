@@ -4,6 +4,7 @@ date: 2020-03-03T06:19:29.831Z
 title: The Largest and biggest tech conference in the Niger Delta
 description: delta tech conference
 featuredimage: ../static/assets/techconf.jpg
+imagedescription: A view of tech conference attendees
 tag: news
 author: Kwamme West
 authorrole: Guest Author

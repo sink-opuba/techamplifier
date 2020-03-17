@@ -41,3 +41,12 @@ exports.createPages = async function({ actions, graphql }) {
     })
   })
 }
+
+// add custom webpack config to solve 'fs' can't resolve error
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    node: {
+      fs: "empty"
+    }
+  })
+}

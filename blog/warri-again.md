@@ -1,9 +1,10 @@
 ---
 path: warri-again
 date: 2020-03-11T06:19:29.831Z
-title: Good Morning from Africa, let's talk about Warri
+title: Good Day from Africa, let's talk about Warri
 description: warri again
 featuredimage: ../static/assets/warri.jpg
+imagedescription: Arial view of warri
 tag: insight
 author: Brabowei Agholor
 authorrole: Guest Writer

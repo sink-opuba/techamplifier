@@ -1,6 +1,6 @@
 import React from "react"
 import {graphql, Link } from "gatsby"
-import config from "../../gatsby-config"
+import site from "../../gatsby-config"
 import Img from 'gatsby-image'
 import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
 
@@ -11,7 +11,7 @@ import { FaTwitter, FaFacebookF, FaLinkedinIn } from "react-icons/fa"
 import { MdEmail } from "react-icons/md"
 
 const Blog = ({ data, pageContext, location }) => {
-  const url = `${config.siteMetadata.siteUrl+location.pathname }`
+  const url = `${site.siteMetadata.siteUrl+location.pathname }`
   const post = data.markdownRemark
   const { next, prev } = pageContext
   let disqusConfig = {
@@ -27,7 +27,7 @@ const Blog = ({ data, pageContext, location }) => {
           <h1>{post.frontmatter.title}</h1>
           <div>
             <h5>
-              {post.frontmatter.date} . {post.timeToRead} min Read <CommentCount config={disqusConfig} placeholder={'...'} />
+              {post.frontmatter.date} . {post.timeToRead} min Read{" . "} <CommentCount config={disqusConfig} placeholder="Join the discussion" />
             </h5>
           </div>
         </div>
@@ -39,7 +39,7 @@ const Blog = ({ data, pageContext, location }) => {
             className={BlogStyle.email}
           >
             <MdEmail />
-          </a>
+           </a>
           <a
             href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}
             target="_blank"
@@ -88,12 +88,12 @@ const Blog = ({ data, pageContext, location }) => {
       </div>
       <div className={BlogStyle.articleLinks}>
         {prev && (
-          <Link to={`/blog/${prev.path}`}>
+          <Link to={`/${prev.path}`}>
             prev <span>&larr;</span> {prev.title}
           </Link>
         )}
         {next && (
-          <Link to={`/blog/${next.path}`}>
+          <Link to={`/${next.path}`}>
             next <span>&rarr; </span> {next.title}
           </Link>
         )}

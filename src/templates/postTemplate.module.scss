@@ -53,7 +53,7 @@
     font-family: "Oswald Lato";
     border-bottom: 1px solid #777777;
     margin-bottom: 2rem;
-    padding: 1rem 2rem 2rem;
+    padding: 1rem 1rem 2rem;
   
     &::first-letter {
       font-size: 3rem;
@@ -76,12 +76,13 @@
     }
   
     .author-info {
+      margin-left: 2rem;
       span {
         color: #2355ab;
         font-size: 1.6rem;
       }
       h3 {
-        font-size: 2.2rem;
+        font-size: 2rem;
         margin-bottom: 0.5rem;
       }
       .description {
@@ -122,7 +123,7 @@
   @media only screen and (max-width: 800px) {
     .container {
       width: 100%;
-      padding: 0;
+      padding: 1rem;
     }
   
     .post-meta-info {
