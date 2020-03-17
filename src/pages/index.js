@@ -45,7 +45,7 @@ const mainPost = posts.shift()
         <article className={IndexStyle.mainArticle}>
         <h1 className={IndexStyle.mainArticleHeading}>{mainPost.node.frontmatter.title}</h1>
         <h3>{mainPost.node.frontmatter.author}</h3>
-          <Img alt="dummy text" fluid={mainPost.node.frontmatter.featuredimage.childImageSharp.fluid} />
+          <Img alt={mainPost.node.frontmatter.imagedescription} fluid={mainPost.node.frontmatter.featuredimage.childImageSharp.fluid} />
         </article>
       </Link>
       <div className={IndexStyle.articlesContainer}>
@@ -64,7 +64,7 @@ const mainPost = posts.shift()
            
             <p className={IndexStyle.articleParagraph}>{post.node.excerpt}</p>
               <div className={IndexStyle.articleImageBox}>
-                <Img alt="placeholder img" fluid={post.node.frontmatter.featuredimage.childImageSharp.fluid} />
+                <Img alt={post.node.frontmatter.imagedescription} fluid={post.node.frontmatter.featuredimage.childImageSharp.fluid} />
               </div>
             </article>            
                 </Link>
