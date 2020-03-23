@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div className={LayoutStyle.techamplifierLayout}>
+      <div className={LayoutStyle.techamplifierLayout} id="top">
       <Header siteTitle={data.site.siteMetadata.title} />
         <div className={LayoutStyle.container}>
         <aside className={LayoutStyle.asideMenu}>
@@ -98,6 +98,7 @@ const Layout = ({ children }) => {
                 &#x1F514;
               </span>
             </p>
+            <span className={LayoutStyle.backToTop}><a href="#top"> &#8593;</a></span>
             <p>
               {" "}
               copyright © Techamplifier Inc. {new Date().getFullYear()}. All

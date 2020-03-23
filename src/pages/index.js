@@ -24,6 +24,7 @@ const IndexPage = () => {
                 }
               }
             }
+            imagedescription
             tag
           }
           excerpt(pruneLength: 200)

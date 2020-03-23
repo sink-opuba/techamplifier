@@ -6,6 +6,8 @@
   margin-top: 3rem;
   padding: 1.6rem;
   min-width: 20rem;
+  position: sticky;
+  top: 20rem;
 }
 
 .menu-list {
@@ -105,6 +107,17 @@
   & button:hover {
     color: #2957a4;
     background-color: #ffffff;
+  }
+}
+.back-to-top {
+  position: absolute;
+  right: 30px;
+  background-color: #2957a4;
+  padding: .8rem 1.1rem;
+  border-radius: 50%;
+  & a {
+    color: #ffffff;
+    font-size: 1.2rem;
   }
 }
 .copyright {

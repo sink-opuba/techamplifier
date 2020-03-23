@@ -140,9 +140,12 @@
         padding: .8rem 2.5rem;
     }
 
-    @media only screen and (max-width: 320px) {
+    @media only screen and (max-width: 360px) {
         .articleAuthor {
             font-size: 1.2rem;
+        }
+        .main-article-heading {
+            font-size: 1.7rem;
         }
     }
  }

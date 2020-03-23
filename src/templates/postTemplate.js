@@ -73,7 +73,7 @@ const Blog = ({ data, pageContext, location }) => {
         </div>
 
         <div className={BlogStyle.aboutAuthor}>
-          <Img fixed={post.frontmatter.authorimage.childImageSharp.fixed} />
+          <Img alt={post.frontmatter.imagedescription} fixed={post.frontmatter.authorimage.childImageSharp.fixed} />
           <div className={BlogStyle.authorInfo}>
             <span>About the Author</span>
             <h3>{post.frontmatter.author}</h3>
@@ -120,6 +120,7 @@ export const query = graphql`
             }
           }
         }
+        imagedescription
         author
         authorrole
         authorimage {
