@@ -1,10 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
-import "./SideBar.css"
+import "./SideBar.scss"
 
 const SideBar = ({ show, click }) => {
   let sideBarClasses = "sidebar"
-  show ? (sideBarClasses = "sidebar open") : (sideBarClasses = "sidebar")
+  if (show) {
+    sideBarClasses = "sidebar open"
+  }
   return (
     <>
       <nav className={sideBarClasses}>
@@ -22,8 +24,8 @@ const SideBar = ({ show, click }) => {
               stroke-linejoin="round"
               className="feather cancel__icon"
             >
-              <line x1="18" y1="6" x2="6" y2="18"></line>
-              <line x1="6" y1="6" x2="18" y2="18"></line>
+              <line x1="22" y1="10" x2="10" y2="22"></line>
+              <line x1="10" y1="10" x2="22" y2="22"></line>
             </svg>
           </div>
         </div>
@@ -37,19 +39,13 @@ const SideBar = ({ show, click }) => {
               <Link to="/">About Us</Link>
             </li>
             <li>
-              <Link to="/">Helpful Tips </Link>
+              <Link to="/">Startups</Link>
             </li>
             <li>
-              <Link to="/">Test Centers</Link>
+              <Link to="/events">Events</Link>
             </li>
             <li>
-              <Link to="/">Donate</Link>
-            </li>
-            <li>
-              <Link to="/">Useful Links</Link>
-            </li>
-            <li>
-              <Link to="/">Contact Us </Link>
+              <Link to="#contact">Contact Us </Link>
             </li>
           </ul>
         </div>
