@@ -1,35 +1,46 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
+import React, { useState } from "react"
+import HeaderStyle from "./header.module.scss"
+import DrawToggleButton from "./DrawToggleButton/DrawToggleButton"
+import SideBar from "./SideBar/SideBar"
+import BackDrop from "./BackDrop/BackDrop"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle} &#x1F514;
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+const Header = ({ siteTitle }) => {
+  const [state, setState] = useState({
+    sideBarOpen: false,
+  })
+
+  const toggleSideBarClick = () => {
+    setState({ sideBarOpen: !state.sideBarOpen })
+  }
+
+  const backDropClick = () => {
+    setState({ sideBarOpen: false })
+  }
+
+  const { sideBarOpen } = state
+
+  return (
+    <>
+      <header>
+        <div>
+          <h1>{siteTitle}</h1>
+        </div>
+
+        <div className={HeaderStyle.navToggle}>
+          <DrawToggleButton click={toggleSideBarClick} />
+        </div>
+      </header>
+      <SideBar show={sideBarOpen} click={backDropClick} />
+      {sideBarOpen && (
+        <>
+          {" "}
+          <BackDrop click={backDropClick} />{" "}
+        </>
+      )}
+    </>
+  )
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
