@@ -1,11 +1,40 @@
 .container {
-  padding: 1rem;
+  display: flex;
 }
 
+.aside-menu {
+  margin-top: 3rem;
+  padding: 1.6rem;
+  min-width: 20rem;
+  position: sticky;
+  top: 20rem;
+}
+
+.menu-list {
+  list-style-type: none;
+  & li {
+    padding: .8rem;
+
+  }
+
+  & a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #383737dc;
+  }
+  & a:hover {
+    color: #242121dc;
+    border-bottom: 1px solid #383737dc;
+  }
+}
+
+.main {
+  flex-grow: 1;
+}
 .footer {
   border-top: 1px solid grey;
   padding: 3rem 5rem 0rem;
-  margin-top: 2rem;
+  margin: 2rem 1rem 1rem;
 }
 
 .contact {
@@ -67,15 +96,28 @@
     }
   }
   & button {
-    padding: 0.9rem;
+    padding: 0.8rem;
     background-color: #2957a4;
-    border: none;
+    border: 1px solid #2957a4;
     cursor: pointer;
     color: #ffffff;
     font-size: 1.1rem;
+    transition: all .3s ease;
   }
   & button:hover {
-    opacity: 0.8;
+    color: #2957a4;
+    background-color: #ffffff;
+  }
+}
+.back-to-top {
+  position: absolute;
+  right: 30px;
+  background-color: #2957a4;
+  padding: .8rem 1.1rem;
+  border-radius: 50%;
+  & a {
+    color: #ffffff;
+    font-size: 1.2rem;
   }
 }
 .copyright {
@@ -94,6 +136,12 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .container {
+    display: block;
+  }
+  .aside-menu {
+    display: none;
+  }
   .footer {
     padding: 2rem 1rem 2rem;
   }

@@ -22,9 +22,11 @@ const Header = ({ siteTitle }) => {
 
   return (
     <>
-      <header>
-        <div>
-          <h1>{siteTitle}</h1>
+      <header className={HeaderStyle.header}>
+        <div className={HeaderStyle.headerTextBox}>
+          <h1 className={HeaderStyle.headerText}>
+            <Link to="/">{siteTitle} &#x1F514;</Link>
+          </h1>
         </div>
 
         <div className={HeaderStyle.navToggle}>

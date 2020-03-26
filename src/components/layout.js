@@ -18,11 +18,23 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div className={LayoutStyle.container}>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <main>{children}</main>
+      <div className={LayoutStyle.techamplifierLayout} id="top">
+      <Header siteTitle={data.site.siteMetadata.title} />
+        <div className={LayoutStyle.container}>
+        <aside className={LayoutStyle.asideMenu}>
+            <ul className={LayoutStyle.menuList}>
+              <li><a href="/">Home</a></li>
+              <li><a href="#events">Events</a></li>
+              <li><a href="#startups">Startups</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </aside>
+        <main className={LayoutStyle.main}>
+          {children}
+          </main>
+        </div>
         <footer className={LayoutStyle.footer}>
-          <div className={LayoutStyle.contact}>
+          <div id="contact" className={LayoutStyle.contact}>
             <div className={LayoutStyle.contactSocials}>
               <h3>Connect With Us</h3>
               <ul className={LayoutStyle.contactSocialsList}>
@@ -86,6 +98,7 @@ const Layout = ({ children }) => {
                 &#x1F514;
               </span>
             </p>
+            <span className={LayoutStyle.backToTop}><a href="#top"> &#8593;</a></span>
             <p>
               {" "}
               copyright © Techamplifier Inc. {new Date().getFullYear()}. All
@@ -95,6 +108,7 @@ const Layout = ({ children }) => {
           </div>
         </footer>
       </div>
+        
     </>
   )
 }
