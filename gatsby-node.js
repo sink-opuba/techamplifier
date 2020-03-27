@@ -1,7 +1,7 @@
 const path = require("path")
 
-exports.createPages = async function({ actions, graphql }) {
-  const { data } = await graphql(`
+exports.createPages = async function({ actions, graphql, reporter }) {
+  const { data, errors } = await graphql(`
     query {
       allMarkdownRemark {
         edges {
@@ -26,6 +26,10 @@ exports.createPages = async function({ actions, graphql }) {
       }
     }
   `)
+  if (errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query.`)
+    return
+  }
   data.allMarkdownRemark.edges.forEach(edge => {
     const path = edge.node.frontmatter.path
     const next = edge.next ? edge.next.frontmatter : null
@@ -37,7 +41,7 @@ exports.createPages = async function({ actions, graphql }) {
         slug: path,
         prev,
         next,
-       },
+      },
     })
   })
 }
@@ -46,7 +50,7 @@ exports.createPages = async function({ actions, graphql }) {
 exports.onCreateWebpackConfig = ({ actions }) => {
   actions.setWebpackConfig({
     node: {
-      fs: "empty"
-    }
+      fs: "empty",
+    },
   })
 }

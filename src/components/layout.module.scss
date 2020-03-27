@@ -13,8 +13,7 @@
 .menu-list {
   list-style-type: none;
   & li {
-    padding: .8rem;
-
+    padding: 0.8rem;
   }
 
   & a {
@@ -102,7 +101,7 @@
     cursor: pointer;
     color: #ffffff;
     font-size: 1.1rem;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
   }
   & button:hover {
     color: #2957a4;
@@ -111,10 +110,11 @@
 }
 .back-to-top {
   position: absolute;
-  right: 30px;
+  right: 20px;
   background-color: #2957a4;
-  padding: .8rem 1.1rem;
+  padding: 0.8rem 1.2rem;
   border-radius: 50%;
+  opacity: 0.75;
   & a {
     color: #ffffff;
     font-size: 1.2rem;
@@ -158,9 +158,9 @@
     flex-direction: column;
   }
   .copyright {
-      p {
-          font-size: 1rem;
-      }
+    p {
+      font-size: 1rem;
+    }
   }
 }
 

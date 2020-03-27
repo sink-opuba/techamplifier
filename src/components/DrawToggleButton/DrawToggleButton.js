@@ -10,9 +10,9 @@ const DrawToggleButton = ({ click }) => (
       viewBox="0 0 24 24"
       fill="none"
       stroke="#fff"
-      stroke-width="1.3"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="1.3"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       className="feather toggle__icon"
     >
       <line x1="17" y1="10" x2="3" y2="10"></line>

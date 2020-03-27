@@ -1,8 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
 import "./SideBar.scss"
 
-const SideBar = ({ show, click }) => {
+const SideBar = ({ show, handleClick }) => {
   let sideBarClasses = "sidebar"
   if (show) {
     sideBarClasses = "sidebar open"
@@ -11,41 +10,41 @@ const SideBar = ({ show, click }) => {
     <>
       <nav className={sideBarClasses}>
         <div className="sidebar__header">
-          <div className="sidebar__icon" onClick={click}>
+          <button className="sidebar__icon" onClick={handleClick}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="30"
-              height="30"
+              width="35"
+              height="35"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className="feather cancel__icon"
             >
               <line x1="22" y1="10" x2="10" y2="22"></line>
               <line x1="10" y1="10" x2="22" y2="22"></line>
             </svg>
-          </div>
+          </button>
         </div>
 
         <div className="sidebar__body">
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <a href="/">Home</a>
             </li>
             <li>
-              <Link to="/">About Us</Link>
+              <a href="#about">About Us</a>
             </li>
             <li>
-              <Link to="/">Startups</Link>
+              <a href="#startups">Startups</a>
             </li>
             <li>
-              <Link to="/events">Events</Link>
+              <a href="#events">Events</a>
             </li>
             <li>
-              <Link to="#contact">Contact Us </Link>
+              <a href="#contact">Contact Us </a>
             </li>
           </ul>
         </div>

@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => {
           <DrawToggleButton click={toggleSideBarClick} />
         </div>
       </header>
-      <SideBar show={sideBarOpen} click={toggleSideBarClick} />
+      <SideBar show={sideBarOpen} handleClick={toggleSideBarClick} />
     </>
   )
 }

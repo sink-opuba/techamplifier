@@ -28,6 +28,8 @@
 .sidebar__icon {
   padding: 15px;
   float: right;
+  border: none;
+  background: transparent;
 }
 .sidebar__icon:active {
   transform: rotateX("30deg");
