@@ -1,13 +1,16 @@
 import React, { useState } from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
-
+import {navigate, useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import LayoutStyle from "./layout.module.scss"
 
+function encode(data) {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&")
+}
+
 const Layout = ({ children }) => {
-  const [success, setSucesss] = useState(false)
-  const [email, setEmail] = useState("")
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -18,11 +21,25 @@ const Layout = ({ children }) => {
     }
   `)
 
+  const [state, setState] = useState({})
+
+  const handleChange = e => {
+    setState({ ...state, [e.target.name]: e.target.value })
+  }
+
   const handleSubmit = e => {
     e.preventDefault()
-    console.log("Clicked!")
-    setSucesss(true)
-    setEmail("")
+    const form = e.target
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({
+        "form-name": form.getAttribute("name"),
+        ...state,
+      }),
+    })
+      .then(() => navigate(form.getAttribute("action")))
+      .catch(error => alert(error))
   }
 
   return (
@@ -85,24 +102,23 @@ const Layout = ({ children }) => {
                 name="NewsLetter"
                 data-netlify="true"
                 method="post"
+                action="/thanks/"
+                data-netlify-honeypot="bot-field"
                 onSubmit={handleSubmit}
               >
                 <input type="hidden" name="form-name" value="NewsLetter" />
+                <p hidden>
+                  <label>
+                    Don’t fill this out:{" "}
+                    <input name="bot-field" onChange={handleChange} />
+                  </label>
+                </p>
                 <div>
-                  {success && (
-                    <p className={LayoutStyle.successText}>
-                      Thanks for subscribing!{" "}
-                      <span>
-                        <button onClick={() => setSucesss(false)}>OK</button>
-                      </span>
-                    </p>
-                  )}
                   <input
                     name="email"
                     type="email"
                     placeholder="Your email"
-                    value={email}
-                    onChange={e => setEmail(e.target.value)}
+                    onChange={handleChange}
                     required
                   />
                 </div>
