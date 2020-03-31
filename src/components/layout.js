@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -6,6 +6,8 @@ import Header from "./header"
 import LayoutStyle from "./layout.module.scss"
 
 const Layout = ({ children }) => {
+  const [success, setSucesss] = useState(false)
+  const [email, setEmail] = useState("")
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -16,22 +18,35 @@ const Layout = ({ children }) => {
     }
   `)
 
+  const handleSubmit = e => {
+    e.preventDefault()
+    console.log("Clicked!")
+    setSucesss(true)
+    setEmail("")
+  }
+
   return (
     <>
       <div className={LayoutStyle.techamplifierLayout} id="top">
-      <Header siteTitle={data.site.siteMetadata.title} />
+        <Header siteTitle={data.site.siteMetadata.title} />
         <div className={LayoutStyle.container}>
-        <aside className={LayoutStyle.asideMenu}>
+          <aside className={LayoutStyle.asideMenu}>
             <ul className={LayoutStyle.menuList}>
-              <li><a href="/">Home</a></li>
-              <li><a href="#events">Events</a></li>
-              <li><a href="#startups">Startups</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="#events">Events</a>
+              </li>
+              <li>
+                <a href="#startups">Startups</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
             </ul>
           </aside>
-        <main className={LayoutStyle.main}>
-          {children}
-          </main>
+          <main className={LayoutStyle.main}>{children}</main>
         </div>
         <footer className={LayoutStyle.footer}>
           <div id="contact" className={LayoutStyle.contact}>
@@ -69,18 +84,25 @@ const Layout = ({ children }) => {
                 className={LayoutStyle.contactForm}
                 name="NewsLetter"
                 data-netlify="true"
+                method="post"
+                onSubmit={handleSubmit}
               >
-                <p className="hidden">
-                  <label>
-                    Don’t fill this out if you're human:{" "}
-                    <input name="bot-field" />
-                  </label>
-                </p>
+                <input type="hidden" name="form-name" value="NewsLetter" />
                 <div>
+                  {success && (
+                    <p className={LayoutStyle.successText}>
+                      Thanks for subscribing!{" "}
+                      <span>
+                        <button onClick={() => setSucesss(false)}>OK</button>
+                      </span>
+                    </p>
+                  )}
                   <input
                     name="email"
                     type="email"
                     placeholder="Your email"
+                    value={email}
+                    onChange={e => setEmail(e.target.value)}
                     required
                   />
                 </div>
@@ -98,7 +120,9 @@ const Layout = ({ children }) => {
                 &#x1F514;
               </span>
             </p>
-            <span className={LayoutStyle.backToTop}><a href="#top"> &#8593;</a></span>
+            <span className={LayoutStyle.backToTop}>
+              <a href="#top"> &#8593;</a>
+            </span>
             <p>
               {" "}
               copyright © Techamplifier Inc. {new Date().getFullYear()}. All
@@ -108,7 +132,6 @@ const Layout = ({ children }) => {
           </div>
         </footer>
       </div>
-        
     </>
   )
 }

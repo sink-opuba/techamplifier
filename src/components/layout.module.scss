@@ -107,6 +107,12 @@
     color: #2957a4;
     background-color: #ffffff;
   }
+
+  & .success-text button {
+    padding: 0.3rem;
+    border-radius: 10%;
+    font-size: 8px;
+  }
 }
 .back-to-top {
   position: absolute;
