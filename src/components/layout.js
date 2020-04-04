@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { navigate, useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import LayoutStyle from "./layout.module.scss"
+import logo from "../images/techamplifier-logo-blue.png"
 
 function encode(data) {
   return Object.keys(data)
@@ -133,11 +134,9 @@ const Layout = ({ children }) => {
 
           <div className={LayoutStyle.copyright}>
             {/* Logo here later */}
-            <p>
-              <span role="img" aria-label="techamplifier Logo">
-                &#x1F514;
-              </span>
-            </p>
+            <div className={LayoutStyle.logo}>
+              <img src={logo} alt="techamplifier logo" />
+            </div>
             <span className={LayoutStyle.backToTop}>
               <a href="#top"> &#8593;</a>
             </span>

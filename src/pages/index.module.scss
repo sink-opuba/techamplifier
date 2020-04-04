@@ -1,151 +1,151 @@
 .container {
-    padding-top: 3rem;
-    border-top: 2px solid #e3e3e3;
-    margin: 0rem 1rem;
-    & a {
-        text-decoration: none;
-        color: #000000;
-    }
+  padding-top: 3rem;
+  border-top: 2px solid #e3e3e3;
+  margin: 0rem 1rem;
+  & a {
+    text-decoration: none;
+    color: #000000;
+  }
 }
 
 .main-article {
-    max-width: 65rem;
-    & a {
-        text-decoration: none;
-        color: #000000;
-    }
+  max-width: 65rem;
+  & a {
+    text-decoration: none;
+    color: #000000;
+  }
 }
 .main-article-heading {
-    font-size: 5rem;
-    font-weight: 800;
+  font-size: 5rem;
+  font-weight: 800;
 }
 .articles-container {
-    margin: 3rem 0rem;
-    max-width: 90rem;
-    & a {
-        text-decoration: none;
-        color: #000000;
-    }
+  margin: 3rem 0rem;
+  max-width: 90rem;
+  & a {
+    text-decoration: none;
+    color: #000000;
+  }
 }
 
 .articles-container > h3 {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 .article {
-    display: flex;
-    justify-content: space-between;
-    border-top: 2px solid #e3e3e3;
-    border-bottom: 2px solid #e3e3e3;
-    padding: 2.2rem 0rem;
-
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #e3e3e3;
+  border-bottom: 2px solid #e3e3e3;
+  padding: 2.2rem 0rem;
 }
 .article:hover {
-    cursor: pointer;
-    opacity: .6;
+  cursor: pointer;
+  opacity: 0.6;
 }
 
 .article-paragraph {
-    font-size: 2.1rem;
-    line-height: 2rem;
-    margin-right: 2rem;
-    opacity: .7;
-    flex-basis: 55%;
+  font-size: 2.1rem;
+  line-height: 2rem;
+  margin-right: 2rem;
+  opacity: 0.7;
+  flex-basis: 55%;
 }
 
 .articleHeader {
-    flex-basis: 32%;
-    padding-right: 1.5rem;
+  flex-basis: 32%;
+  padding-right: 1.5rem;
 }
 .articleHeading {
-    font-size: 2.8rem;
+  font-size: 2.8rem;
 }
 .articleAuthor {
-    font-size: 1.6rem;
-    font-weight: normal;
+  font-size: 1.6rem;
+  font-weight: normal;
 }
 .articleDate {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .article-image-box {
-    flex-basis: 32%;
-    max-width: 100%;
+  flex-basis: 32%;
+  max-width: 100%;
 }
 
 .load-more-box {
-    text-align: center;
-    margin-top: 2.4rem;
-    & button {
-        padding: 1rem 3rem;
-        font-size: 1.8rem;
-        border-radius: 3px;
-        color: #ffffff;
-        background-color: #2957a4;
-        outline: none;
-        border: 1px solid #2957a4;
-        transition: all .3s ease;
-    }
+  text-align: center;
+  margin-top: 2.4rem;
+  & button {
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    border-radius: 3px;
+    color: #ffffff;
+    background-color: #1d014b;
+    outline: none;
+    border: 1px solid #1d014b;
+    transition: all 0.3s ease;
+  }
 
-    & button:hover, & button:active {
-        cursor: pointer;
-        color: #2957a4;
-        background-color: transparent;
-    }
+  & button:hover,
+  & button:active {
+    cursor: pointer;
+    color: #1d014b;
+    background-color: transparent;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .container {
-        padding-top: 2.8rem;
-        border-top: none;
-        margin: .5rem;
-    }
-    
-    .main-article {
-        width: 100%;
-        padding: .5rem;
-        margin: 0;
+  .container {
+    padding-top: 2.8rem;
+    border-top: none;
+    margin: 0.5rem;
+  }
+
+  .main-article {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0;
+  }
+  .main-article-heading {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .articles-container > h3 {
+    font-size: 1.4rem;
+  }
+  .article {
+    padding: 1.8rem 0;
+  }
+  .articleHeader {
+    flex-basis: 70%;
+  }
+  .articleHeading {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+  }
+  .article-paragraph {
+    display: none;
+  }
+  .articleAuthor {
+    font-size: 1.4rem;
+    margin: 0;
+  }
+  .articleDate {
+    margin-top: 0.6rem;
+  }
+
+  .load-more-box button {
+    font-size: 1.5rem;
+    padding: 0.8rem 2.5rem;
+  }
+
+  @media only screen and (max-width: 360px) {
+    .articleAuthor {
+      font-size: 1.2rem;
     }
     .main-article-heading {
-        font-size: 2rem;
-        font-weight: 600;
+      font-size: 1.7rem;
     }
-    .articles-container > h3 {
-        font-size: 1.4rem;
-    }
-    .article {
-        padding: 1.8rem 0;
-    }
-    .articleHeader {
-        flex-basis: 70%;
-    }
-    .articleHeading {
-        font-size: 1.6rem;
-        font-weight: 500;
-        margin-bottom: .8rem;
-    }
-    .article-paragraph {
-        display: none;
-    }
-    .articleAuthor {
-        font-size: 1.4rem;
-        margin: 0;
-    }
-    .articleDate {
-        margin-top: .6rem;
-    }
-
-    .load-more-box button {
-        font-size: 1.5rem;
-        padding: .8rem 2.5rem;
-    }
-
-    @media only screen and (max-width: 360px) {
-        .articleAuthor {
-            font-size: 1.2rem;
-        }
-        .main-article-heading {
-            font-size: 1.7rem;
-        }
-    }
- }
+  }
+}

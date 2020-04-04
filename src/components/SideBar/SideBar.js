@@ -1,5 +1,6 @@
 import React from "react"
 import "./SideBar.scss"
+import logo from "../../images/techamplifier-logo-blue.png"
 
 const SideBar = ({ show, handleClick }) => {
   let sideBarClasses = "sidebar"
@@ -47,6 +48,8 @@ const SideBar = ({ show, handleClick }) => {
               <a href="#contact">Contact Us </a>
             </li>
           </ul>
+
+          <img className="sidebar_logo" src={logo} alt="techamplifier logo" />
         </div>
       </nav>
     </>

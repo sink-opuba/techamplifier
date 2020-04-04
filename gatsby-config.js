@@ -9,7 +9,7 @@ module.exports = {
     author: `@techamplifier`,
     twitterUsername: `@techamplifier`,
     siteUrl: "https://techamplifier.africa",
-    image: `src/images/waffiihub-icon.png`,
+    image: `src/images/techamplifier-logo-blue.png`,
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
-        shortname: process.env.GATSBY_DISQUS_NAME
-      }
+        shortname: process.env.GATSBY_DISQUS_NAME,
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -41,6 +41,13 @@ module.exports = {
         path: `${__dirname}/static/assets`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: "images",
+        path: `${__dirname}/src/images`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -49,10 +56,10 @@ module.exports = {
         name: `techamplifier`,
         short_name: `techamplifier`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#1D014B`,
+        theme_color: `#1D014B`,
         display: `minimal-ui`,
-        icon: `src/images/waffiihub-icon.png`,
+        icon: `src/images/techamplifier-logo-white.png`,
       },
     },
     {

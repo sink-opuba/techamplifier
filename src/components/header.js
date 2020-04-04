@@ -4,17 +4,19 @@ import React, { useState } from "react"
 import HeaderStyle from "./header.module.scss"
 import DrawToggleButton from "./DrawToggleButton/DrawToggleButton"
 import SideBar from "./SideBar/SideBar"
+import logo from "../images/techamplifier-text-white.png"
 
 const Header = ({ siteTitle }) => {
   const [sideBarOpen, setSideBarOpen] = useState(false)
   const toggleSideBarClick = () => setSideBarOpen(!sideBarOpen)
+
   return (
     <>
       <header className={HeaderStyle.header}>
         <div className={HeaderStyle.headerTextBox}>
-          <h1 className={HeaderStyle.headerText}>
-            <Link to="/">{siteTitle}</Link>
-          </h1>
+          <Link to="/">
+            <img src={logo} alt="techamplifier logo" />
+          </Link>
         </div>
 
         <div className={HeaderStyle.navToggle}>

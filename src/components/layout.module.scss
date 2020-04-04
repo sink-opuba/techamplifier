@@ -96,15 +96,15 @@
   }
   & button {
     padding: 0.8rem;
-    background-color: #2957a4;
-    border: 1px solid #2957a4;
+    background-color: #1d014b;
+    border: 1px solid #1d014b;
     cursor: pointer;
     color: #ffffff;
     font-size: 1.1rem;
     transition: all 0.3s ease;
   }
   & button:hover {
-    color: #2957a4;
+    color: #1d014b;
     background-color: #ffffff;
   }
 
@@ -117,7 +117,7 @@
 .back-to-top {
   position: absolute;
   right: 20px;
-  background-color: #2957a4;
+  background-color: #1d014b;
   padding: 0.8rem 1.2rem;
   border-radius: 50%;
   opacity: 0.75;
@@ -140,7 +140,9 @@
     color: #e7e7e7;
   }
 }
-
+.logo img {
+  height: 60px;
+}
 @media only screen and (max-width: 768px) {
   .container {
     display: block;
@@ -162,8 +164,6 @@
   }
   .copyright {
     flex-direction: column;
-  }
-  .copyright {
     p {
       font-size: 1rem;
     }
