@@ -17,8 +17,8 @@ collections:
       - { name: path, label: Path }
       - { name: date, label: "Publish Date", widget: datetime }
       - { name: title, label: Title }
-      - { name: description, label: Description, widget: "text" }
-      - { name: tag, label: "Tag (insight or news)", widget: "text" }
+      - { name: description, label: Description, widget: "text", required: false }
+      - { name: tag, label: "Tag(s)", widget: "text" }
       - { name: "featuredimage", label: "Featured Image", widget: image }
       - { name: "imagedescription", label: "Image Description", widget: "text"}
       - { name: body, label: Body, widget: markdown }

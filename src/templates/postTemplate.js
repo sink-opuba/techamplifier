@@ -1,8 +1,8 @@
 import React from "react"
-import {graphql, Link } from "gatsby"
+import { graphql, Link } from "gatsby"
 import site from "../../gatsby-config"
-import Img from 'gatsby-image'
-import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
+import Img from "gatsby-image"
+import { Disqus, CommentCount } from "gatsby-plugin-disqus"
 
 import Layout from "../components/layout"
 import BlogStyle from "./postTemplate.module.scss"
@@ -11,7 +11,7 @@ import { FaTwitter, FaFacebookF, FaLinkedinIn } from "react-icons/fa"
 import { MdEmail } from "react-icons/md"
 
 const Blog = ({ data, pageContext, location }) => {
-  const url = `${site.siteMetadata.siteUrl+location.pathname }`
+  const url = `${site.siteMetadata.siteUrl + location.pathname}`
   const post = data.markdownRemark
   const { next, prev } = pageContext
   let disqusConfig = {
@@ -27,7 +27,11 @@ const Blog = ({ data, pageContext, location }) => {
           <h1>{post.frontmatter.title}</h1>
           <div>
             <h5>
-              {post.frontmatter.date} . {post.timeToRead} min Read{" . "} <CommentCount config={disqusConfig} placeholder="Join the discussion" />
+              {post.frontmatter.date} . {post.timeToRead} min Read{" . "}{" "}
+              <CommentCount
+                config={disqusConfig}
+                placeholder="Join the discussion"
+              />
             </h5>
           </div>
         </div>
@@ -39,7 +43,7 @@ const Blog = ({ data, pageContext, location }) => {
             className={BlogStyle.email}
           >
             <MdEmail />
-           </a>
+          </a>
           <a
             href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}
             target="_blank"
@@ -73,7 +77,10 @@ const Blog = ({ data, pageContext, location }) => {
         </div>
 
         <div className={BlogStyle.aboutAuthor}>
-          <Img alt={post.frontmatter.imagedescription} fixed={post.frontmatter.authorimage.childImageSharp.fixed} />
+          <Img
+            alt={post.frontmatter.imagedescription}
+            fixed={post.frontmatter.authorimage.childImageSharp.fixed}
+          />
           <div className={BlogStyle.authorInfo}>
             <span>About the Author</span>
             <h3>{post.frontmatter.author}</h3>
@@ -107,11 +114,10 @@ export default Blog
 export const query = graphql`
   query($slug: String!) {
     markdownRemark(frontmatter: { path: { eq: $slug } }) {
-        id
+      id
       frontmatter {
         title
         path
-        description
         date(formatString: "MMM Do, YYYY")
         featuredimage {
           childImageSharp {
