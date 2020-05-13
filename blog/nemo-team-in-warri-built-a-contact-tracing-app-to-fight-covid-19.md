@@ -13,11 +13,11 @@ Amid the scare and frenzy which coronavirus brings, there is still good news we 
 
 <div class="img-class">
 
-![](../static/assets/2.png)
+![](/assets/2.png)
 
-![](../static/assets/3.png)
+![](/assets/3.png)
 
-![](../static/assets/6.png)
+![](/assets/6.png)
 
 </div> 
 
