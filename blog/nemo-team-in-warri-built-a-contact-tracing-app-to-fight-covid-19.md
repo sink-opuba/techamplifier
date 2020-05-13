@@ -13,8 +13,6 @@ Amid the scare and frenzy which coronavirus brings, there is still good news we 
 
 <div class="img-class">
 
-![](../static/assets/1.png)
-
 ![](../static/assets/2.png)
 
 ![](../static/assets/3.png)
