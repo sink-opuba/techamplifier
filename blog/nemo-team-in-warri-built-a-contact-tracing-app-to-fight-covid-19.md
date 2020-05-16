@@ -1,6 +1,6 @@
 ---
 path: covid2geda
-date: 2020-05-13T11:31:50.566Z
+date: 2020-05-16T11:31:50.566Z
 title: Nemo Team in Warri Built a Contact Tracing App to Fight COVID-19
 tag: news
 featuredimage: ../static/assets/7.jpg
@@ -9,7 +9,7 @@ author: Timothy Ovie
 authorrole: Storytelling & Marketing
 authorimage: ../static/assets/img_1714~4.jpg
 ---
-Amid the scare and frenzy which coronavirus brings, there is still good news we get regarding breakthroughs in the fight of COVID-19. A Warri based software development company, Apps-pot LLC has launched a mobile app ([COVID2GEDA](https://covid2geda.org/)) to help curb the spread of this dreadful virus. It has very helpful features that the company hopes would help the Nigerian government in the fight of COVID-19. Basically, the app does three things; Contact Tracing, Symptoms Checking, and Geofencing.
+Amid the scare and frenzy which coronavirus brings, there is still good news we get regarding breakthroughs in the fight of COVID-19. A Warri based software development company, Apps-pot LLC has launched a mobile app ([COVID2GEDA](https://www.covid2geda.org)) to help curb the spread of this dreadful virus. It has very helpful features that the company hopes would help the Nigerian government in the fight of COVID-19. Basically, the app does three things; Contact Tracing, Symptoms Checking, and Geofencing.
 
 <div class="img-class">
 
@@ -27,7 +27,7 @@ With this technology, the app is able to continually scan for other users while 
 
 Speaking with him, he also said that the app stores everybody you have come in contact with on your phone on the history page of the app. This is a huge break for users as they can easily know if those they've come in contact with have the virus or have been exposed to it. 
 
-According to the CEO, Mavino Micheal, he said the initiative is a response to the current pandemic and might not be available after the pandemic. Regardless, we are relieved about this break and really look forward to when it would be in full use.
+According to the CEO, Mavino Micheal, he said the initiative is a response to the current pandemic and might not be available after the pandemic. Regardless, we are relieved about this break and really look forward to when it would be in full use. You can download the app [here](https://www.covid2geda.org/covid.apk).
 
 Here's a link to watch the CEO giving a talk about it on [Youtube](https://youtu.be/3rn5-b-rWQo) and also check out the company's flagship product ([Nemo Messenger](https://nemo.com.ng)).
 
