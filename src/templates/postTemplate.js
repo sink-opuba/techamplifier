@@ -1,4 +1,4 @@
-import React from "react"
+ import React from "react"
 import { graphql, Link } from "gatsby"
 import site from "../../gatsby-config"
 import Img from "gatsby-image"
