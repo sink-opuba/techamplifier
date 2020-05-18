@@ -1,4 +1,4 @@
- import React from "react"
+import React from "react"
 import { graphql, Link } from "gatsby"
 import site from "../../gatsby-config"
 import Img from "gatsby-image"
@@ -74,13 +74,17 @@ const Blog = ({ data, pageContext, location }) => {
         </div>
         <div className={BlogStyle.blogPostBody}>
           <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
+          <p>
+            <a href="#subscribe"> Subscribe </a> to the Techamplifier Africa
+            Newsletter for weekly updates.
+          </p>
         </div>
-
         <div className={BlogStyle.aboutAuthor}>
           <Img
             alt={post.frontmatter.imagedescription}
             fixed={post.frontmatter.authorimage.childImageSharp.fixed}
           />
+
           <div className={BlogStyle.authorInfo}>
             <span>About the Author</span>
             <h3>{post.frontmatter.author}</h3>
@@ -90,7 +94,6 @@ const Blog = ({ data, pageContext, location }) => {
             </p>
           </div>
         </div>
-
         <Disqus config={disqusConfig} />
       </div>
       <div className={BlogStyle.articleLinks}>

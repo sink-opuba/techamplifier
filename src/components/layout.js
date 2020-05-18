@@ -116,6 +116,7 @@ const Layout = ({ children }) => {
                 </p>
                 <div>
                   <input
+                    id="subscribe"
                     name="email"
                     type="email"
                     placeholder="Your email"
@@ -142,8 +143,8 @@ const Layout = ({ children }) => {
             </span>
             <p>
               {" "}
-              copyright © Techamplifier Inc. {new Date().getFullYear()}. All
-              rights reserved. Powered by{" "}
+              {new Date().getFullYear()} © Techamplifier Africa Ltd. All rights
+              reserved. Powered by{" "}
               <a href="https://warriinnovationhub.com">Waffiihub</a>.
             </p>
           </div>

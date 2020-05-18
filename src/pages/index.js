@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 import Layout from "../components/layout"
@@ -19,6 +19,13 @@ const IndexPage = () => {
               date(fromNow: true)
               path
               author
+              authorimage {
+                childImageSharp {
+                  fixed(width: 30, height: 30) {
+                    ...GatsbyImageSharpFixed
+                  }
+                }
+              }
               featuredimage {
                 childImageSharp {
                   fluid(maxWidth: 800) {
@@ -70,20 +77,39 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Home" />
       <div className={IndexStyle.container}>
-        <Link to={`/${mainPost.node.frontmatter.path}`}>
-          <article className={IndexStyle.mainArticle}>
-            <h1 className={IndexStyle.mainArticleHeading}>
-              {mainPost.node.frontmatter.title}
-            </h1>
-            <h3>{mainPost.node.frontmatter.author}</h3>
-            <Img
-              alt={mainPost.node.frontmatter.imagedescription}
-              fluid={
-                mainPost.node.frontmatter.featuredimage.childImageSharp.fluid
-              }
-            />
-          </article>
-        </Link>
+        {/* <Link to={`/${mainPost.node.frontmatter.path}`}> */}
+        <article className={IndexStyle.mainArticle}>
+          <h1 className={IndexStyle.mainArticleHeading}>
+            {mainPost.node.frontmatter.title}
+          </h1>
+          <h3 className={IndexStyle.mainArticleAuthor}>
+            <span>
+              <Img
+                alt={mainPost.node.frontmatter.author + "img"}
+                fixed={
+                  mainPost.node.frontmatter.authorimage.childImageSharp.fixed
+                }
+              />
+            </span>
+            {mainPost.node.frontmatter.author}
+          </h3>
+          <Img
+            alt={mainPost.node.frontmatter.imagedescription}
+            fluid={
+              mainPost.node.frontmatter.featuredimage.childImageSharp.fluid
+            }
+          />
+          <p className={IndexStyle.mainArticleExcerpt}>
+            {" "}
+            Lacinia at quis risus sed vulputate odio ut enim. Mi sit amet mauris
+            commodo quis imperdiet massa tincidunt. Mi in nulla posuere
+            sollicitudin aliquam ultrices{" "}
+            <a href={`/${mainPost.node.frontmatter.path}`}>
+              Read More <span>&rarr;</span>
+            </a>
+          </p>
+        </article>
+        {/* </Link> */}
         <div className={IndexStyle.articlesContainer}>
           <h3>The Latest</h3>
 

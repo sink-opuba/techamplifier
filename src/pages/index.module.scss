@@ -2,22 +2,51 @@
   padding-top: 3rem;
   border-top: 2px solid #e3e3e3;
   margin: 0rem 1rem;
-  & a {
-    text-decoration: none;
-    color: #000000;
-  }
 }
 
 .main-article {
   max-width: 65rem;
-  & a {
-    text-decoration: none;
-    color: #000000;
-  }
 }
 .main-article-heading {
   font-size: 5rem;
   font-weight: 800;
+}
+.main-article-author {
+  position: relative;
+  padding-left: 3.5rem;
+  span {
+    position: absolute;
+    top: -0.5rem;
+    left: 0.5rem;
+  }
+  img {
+    display: inline-block;
+    border-radius: 50px;
+  }
+}
+.main-article-excerpt {
+  font-size: 1.4rem;
+  padding-top: 1rem;
+  a {
+    text-decoration: none;
+    display: block;
+    color: #1d014b;
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+    transition: all 0.2s;
+
+    & span {
+      margin-left: 3px;
+      transition: margin-left 0.2s;
+    }
+
+    &:hover {
+      color: #000000;
+      span {
+        margin-left: 8px;
+      }
+    }
+  }
 }
 .articles-container {
   margin: 3rem 0rem;
@@ -109,6 +138,19 @@
   .main-article-heading {
     font-size: 2rem;
     font-weight: 600;
+  }
+  .main-article-author {
+    padding-left: 3rem;
+    span {
+      top: 0rem;
+      // left: 0.8rem;
+    }
+  }
+  .main-article-excerpt {
+    font-size: 1.2rem;
+    a {
+      font-size: 1.1rem;
+    }
   }
   .articles-container > h3 {
     font-size: 1.4rem;
