@@ -100,10 +100,7 @@ const IndexPage = () => {
             }
           />
           <p className={IndexStyle.mainArticleExcerpt}>
-            {" "}
-            Lacinia at quis risus sed vulputate odio ut enim. Mi sit amet mauris
-            commodo quis imperdiet massa tincidunt. Mi in nulla posuere
-            sollicitudin aliquam ultrices{" "}
+            {mainPost.node.excerpt}
             <a href={`/${mainPost.node.frontmatter.path}`}>
               Read More <span>&rarr;</span>
             </a>
