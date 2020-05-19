@@ -4,6 +4,13 @@ import { navigate, useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import LayoutStyle from "./layout.module.scss"
 import logo from "../images/techamplifier-logo-blue.png"
+import {
+  FaTwitter,
+  FaLinkedinIn,
+  FaYoutube,
+  FaInstagram,
+  FaFacebookF,
+} from "react-icons/fa"
 
 function encode(data) {
   return Object.keys(data)
@@ -72,20 +79,30 @@ const Layout = ({ children }) => {
               <h3>Connect With Us</h3>
               <ul className={LayoutStyle.contactSocialsList}>
                 <li>
-                  <a href="#facebook">FB</a>
+                  <a href="#facebook">
+                    <FaFacebookF />
+                  </a>
                 </li>
                 <li>
                   {" "}
-                  <a href="#twitter">TW</a>
+                  <a href="https://twitter.com/techamplifier">
+                    <FaTwitter />
+                  </a>
                 </li>
                 <li>
-                  <a href="#linkedin">LN</a>
+                  <a href="#linkedin">
+                    <FaLinkedinIn />
+                  </a>
                 </li>
                 <li>
-                  <a href="#youtube">YT</a>
+                  <a href="#youtube">
+                    <FaYoutube />
+                  </a>
                 </li>
                 <li>
-                  <a href="#instagram">IG</a>
+                  <a href="https://www.instagram.com/techamplifier/">
+                    <FaInstagram />
+                  </a>
                 </li>
               </ul>
               <p>
