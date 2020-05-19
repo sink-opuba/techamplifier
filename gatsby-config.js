@@ -7,7 +7,7 @@ module.exports = {
     title: `Tech Amplifier`,
     description: `TechAmplifier - A platform that amplifies innovations and technologies developed in emerging tech ecosystems in Africa.`,
     author: `@techamplifier`,
-    twitterUsername: `@techamplifier`,
+    twitterUsername: `@TechAmplifier`,
     siteUrl: "https://techamplifier.africa",
     image: `src/images/techamplifier-logo-blue.png`,
   },
