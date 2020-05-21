@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import PropTypes from "prop-types"
 import { navigate, useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
+import MenuList from "./MenuList"
 import LayoutStyle from "./layout.module.scss"
 import logo from "../images/techamplifier-logo-blue.png"
 import {
@@ -57,18 +58,7 @@ const Layout = ({ children }) => {
         <div className={LayoutStyle.container}>
           <aside className={LayoutStyle.asideMenu}>
             <ul className={LayoutStyle.menuList}>
-              <li>
-                <a href="/">Home</a>
-              </li>
-              <li>
-                <a href="#events">Events</a>
-              </li>
-              <li>
-                <a href="#startups">Startups</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
-              </li>
+              <MenuList />
             </ul>
           </aside>
           <main className={LayoutStyle.main}>{children}</main>

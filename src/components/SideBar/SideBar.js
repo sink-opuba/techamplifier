@@ -1,6 +1,7 @@
 import React from "react"
 import "./SideBar.scss"
 import logo from "../../images/techamplifier-logo-blue.png"
+import MenuList from "../MenuList"
 
 const SideBar = ({ show, handleClick }) => {
   let sideBarClasses = "sidebar"
@@ -32,21 +33,7 @@ const SideBar = ({ show, handleClick }) => {
 
         <div className="sidebar__body">
           <ul>
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="#about">About Us</a>
-            </li>
-            <li>
-              <a href="#startups">Startups</a>
-            </li>
-            <li>
-              <a href="#events">Events</a>
-            </li>
-            <li>
-              <a href="#contact">Contact Us </a>
-            </li>
+            <MenuList />
           </ul>
 
           <img className="sidebar_logo" src={logo} alt="techamplifier logo" />
