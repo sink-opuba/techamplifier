@@ -29,6 +29,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-4554222721146964`,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: "blog",
