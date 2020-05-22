@@ -70,7 +70,10 @@ const Blog = ({ data, pageContext, location }) => {
           </a>
         </div>
         <div className={BlogStyle.featuredImg}>
-          <Img fluid={post.frontmatter.featuredimage.childImageSharp.fluid} />
+          <Img
+            alt={post.frontmatter.imagedescription}
+            fluid={post.frontmatter.featuredimage.childImageSharp.fluid}
+          />
         </div>
         <div className={BlogStyle.blogPostBody}>
           <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
@@ -81,7 +84,7 @@ const Blog = ({ data, pageContext, location }) => {
         </div>
         <div className={BlogStyle.aboutAuthor}>
           <Img
-            alt={post.frontmatter.imagedescription}
+            alt={post.frontmatter.author}
             fixed={post.frontmatter.authorimage.childImageSharp.fixed}
           />
 
