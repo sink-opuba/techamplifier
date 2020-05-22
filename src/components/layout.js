@@ -104,7 +104,7 @@ const Layout = ({ children }) => {
             </div>
             <div className={LayoutStyle.contactFormContainer}>
               <h3>Stay Updated</h3>
-              <p>Stay updated on our activities, news, events and more.</p>
+              <p>Stay updated on our activities, news, events, and more.</p>
               <form
                 className={LayoutStyle.contactForm}
                 name="NewsLetter"
@@ -134,7 +134,12 @@ const Layout = ({ children }) => {
                   />
                 </div>
                 <div>
-                  <button type="submit">Subscribe</button>
+                  <button type="submit">
+                    Subscribe{" "}
+                    <span role="img" aria-label="Ok emoji">
+                      👌
+                    </span>
+                  </button>
                 </div>
               </form>
             </div>

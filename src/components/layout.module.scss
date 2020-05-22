@@ -1,4 +1,3 @@
-
 .container {
   display: flex;
 }
@@ -94,7 +93,7 @@
     }
   }
   & button {
-    padding: 0.8rem;
+    padding: 0.62rem 0.8rem 0.83rem;
     background-color: #1d014b;
     border: 1px solid #1d014b;
     cursor: pointer;
@@ -105,12 +104,6 @@
   & button:hover {
     color: #1d014b;
     background-color: #ffffff;
-  }
-
-  & .success-text button {
-    padding: 0.3rem;
-    border-radius: 10%;
-    font-size: 8px;
   }
 }
 .back-to-top {
