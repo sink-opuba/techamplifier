@@ -154,6 +154,17 @@
   .contact-socials {
     flex-direction: column;
   }
+
+  .contact-socials-list {
+    a {
+      padding: 0.5rem 0.55rem 0.28rem;
+      margin: 0.35rem;
+      font-size: 1.5rem;
+    }
+    a:hover {
+      font-size: 1.3rem;
+    }
+  }
   .copyright {
     flex-direction: column;
     p {
