@@ -8,6 +8,18 @@ site_url: https://techamplifier.africa
 display_url: https://techamplifier.africa
 logo_url: https://res.cloudinary.com/waffiihub/image/upload/v1579554011/waffiihub-text-logo_qn3f3p.png
 
+media_library:
+  name: cloudinary
+  output_filename_only: true
+  config:
+    cloud_name: techamplifier-africa
+    api_key: 885977493118496
+    default_transformations:
+      - - fetch_format: auto
+          width: 300
+          quality: auto
+          crop: scale
+
 collections:
   - name: blog
     label: Blog
@@ -17,17 +29,37 @@ collections:
       - { name: path, label: Path }
       - { name: date, label: "Publish Date", widget: datetime }
       - { name: title, label: Title }
-      - { name: description, label: Description, widget: "text", required: false }
+      - {
+          name: description,
+          label: Description,
+          widget: "text",
+          required: false,
+        }
       - { name: tag, label: "Tag(s)", widget: "text" }
-      - { name: "featuredimage", label: "Featured Image", widget: image }
-      - { name: "imagedescription", label: "Image Description", widget: "text"}
+      - name: "featuredimage"
+        label: "Featured Image"
+        widget: image
+        media_library:
+          config:
+            default_transformations:
+              - fetch_format: auto
+                width: 800
+                crop: fill
+
+      - { name: "imagedescription", label: "Image Description", widget: "text" }
       - { name: body, label: Body, widget: markdown }
       - { name: author, label: "Author's Name" }
       - { name: "authorrole", label: "Author's Role" }
-      - {
-          name: "authorimage",
-          label: "Author's Image",
-          widget: image,
-          default: "assets/author_avatar.png",
-          required: false,
-        }
+      - name: "authorimage"
+        label: "Author's Image"
+        widget: image
+        # default: "assets/author_avatar.png"
+        # required: false,
+        media_library:
+          config:
+            default_transformations:
+              - fetch_format: auto
+                width: 100
+                quality: auto
+                crop: fill
+                gravity: face:center
