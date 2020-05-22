@@ -8,58 +8,66 @@ const Aboutpage = () => (
   <Layout>
     <SEO title="About" />
     <div className={AboutStyle.container}>
-      <div>
-        <h1>Tech Amplifier Africa</h1>
-        <h4>
+      <div className={AboutStyle.header}>
+        <h1>About us</h1>
+        <p>
           Tech Amplifier Africa is a media technology company that amplifies the
           innovations and technology coming out of emerging ecosystems in
           Africa.
-        </h4>
-        <h4>
+        </p>
+        <p>
           We are doing this by sharing their story and hosting various virtual
           and in-person events.
-        </h4>
+        </p>
       </div>
-      <div>
+      <div className={AboutStyle.contact}>
         <h3>Contact Us</h3>
         <div>
           <h4>Got stories and insight you will love us to feature?</h4>
-          <p>
-            Email Us at{" "}
-            <a href="mailto:editor@techamplifier.africa">
-              editor@techamplifier.africa
-            </a>
-          </p>
+          <ul>
+            <li>
+              Email Us at{" "}
+              <a href="mailto:editor@techamplifier.africa">
+                editor@techamplifier.africa
+              </a>
+            </li>
+          </ul>
         </div>
 
         <div>
           <h4>Want your startup featured?</h4>
-          <p>
-            Email Us at{" "}
-            <a href="mailto:startups@techamplifier.africa">
-              startups@techamplifier.africa
-            </a>
-          </p>
+          <ul>
+            <li>
+              Email Us at{" "}
+              <a href="mailto:startups@techamplifier.africa">
+                startups@techamplifier.africa
+              </a>
+            </li>
+          </ul>
         </div>
 
         <div>
           <h4>Want to do business with us or advertise on TechAmplifier?</h4>
-          <p>
-            Send us an email at{" "}
-            <a href="mailto:ads@techamplifier.africa">
-              ads@techamplifier.africa
-            </a>
-          </p>
+          <ul>
+            <li>
+              Send us an email at{" "}
+              <a href="mailto:ads@techamplifier.africa">
+                ads@techamplifier.africa
+              </a>
+            </li>
+          </ul>
         </div>
 
         <div>
           <h4>Want to sponsor or exhibit at our next event?</h4>
-          <p>
-            Do well to email{" "}
-            <a href="mailto:events@techamplifier.africa">
-              events@techamplifier.africa
-            </a>
-          </p>
+          <ul>
+            <li>
+              Do well to email{" "}
+              <a href="mailto:events@techamplifier.africa">
+                events@techamplifier.africa
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

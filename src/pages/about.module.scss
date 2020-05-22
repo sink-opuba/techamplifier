@@ -1,9 +1,83 @@
 .container {
-  max-width: 80rem;
+  max-width: 70rem;
   margin: 0 auto;
   padding: 2rem 1rem;
 
   a {
     text-decoration: none;
+    color: #1d014b;
+  }
+}
+
+.header {
+  margin-top: 2rem;
+  h1 {
+    font-size: 3.5rem;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+}
+.contact {
+  margin-top: 2rem;
+  h3 {
+    font-size: 2.4rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+    opacity: 0.7rem;
+  }
+
+  li {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    h1 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1.3rem;
+    }
+  }
+  .contact {
+    h3 {
+      font-size: 2rem;
+    }
+
+    h4 {
+      font-size: 1.3rem;
+    }
+
+    li {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .header {
+    h1 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1.3rem;
+    }
+  }
+  .contact {
+    h3 {
+      font-size: 1.8rem;
+    }
+
+    h4 {
+      font-size: 1.2rem;
+    }
+
+    li {
+      font-size: 1rem;
+    }
   }
 }
