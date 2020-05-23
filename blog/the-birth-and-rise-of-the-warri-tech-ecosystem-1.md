@@ -18,9 +18,13 @@ authorimage: ../static/assets/paul.jpg
 
 That Scriptural text helped Paul appreciate the power of collaboration and resilience. He became more determined to continue seeking like minded individuals in Warri to collaborate with in building his dream tech ecosystem. Forging ahead, he formed a new social media platform called ‘Warri Startups Development Foundation’ (WAFSDEF) and started using it to propagate his vision online. 
 
+<div class="img-class">
+
 ![](../static/assets/1st-image-1.jpg)
 
 ![](../static/assets/1st-image-2.jpg)
+
+</div> 
 
 One fateful day, while Paul was going through some twitter threads he stumbled into a tweet by New Warri asking Waffirians to share their vision of a new Warri. Paul quickly jumped on the tweet and shared his vision of Tech Warri. Three weeks after, Paul met with Collins Azuike *(the guy behind the New Warri handle)* and shared more info with him. Paul asked Collins to link him up with Igho Tietie *(aka Warri Update)* a prominent social media influencer. Collins did and the next day Paul had a meeting with Igho. Later, Igho introduced Paul to Tobore Adakaraza, a tech enthusiast and pastor shaping bright minds in Warri to pursue excellence and change the narrative on Warri. Pastor Tobore commended Paul for his vision for Tech Warri and gave him some helpful advice. Later he linked him up with Oreva Akakasi *(a designer and startup founder).* Few weeks later at networking gathering for entrepreneurs*(tagged The MIX)*which was put together by Connect Hub, Paul met other great minds in likes Mofe Pira, Anita Okiotor, and Tobore Didaskalos. He shared his vision of Tech Warri with them and they were in. The following day a meeting was scheduled at Chicken Republic Airport Road. Alex Okome and Nancy Ogbonnaya also joined the meeting and at the end of the day a new tech-startup community named ‘Delta Technology Entrepreneurship and Collaboration Hub’ – DTECH was formed. The plan was for DTECH to serve as the corporate entity that will drive the ecosystem's vision to reality. 
 
