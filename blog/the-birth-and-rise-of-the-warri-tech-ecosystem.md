@@ -18,9 +18,9 @@ A technology ecosystem is an interdependent, independent network of various acto
 
 <div class="img-class">
 
-![](../static/assets/2nd-image.jpg)
+![](/assets/2nd-image.jpg)
 
-![](../static/assets/3rd-image.jpg)
+![](/assets/3rd-image.jpg)
 
 </div> 
 
