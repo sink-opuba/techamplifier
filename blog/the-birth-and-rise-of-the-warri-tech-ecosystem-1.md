@@ -20,9 +20,9 @@ That Scriptural text helped Paul appreciate the power of collaboration and resil
 
 <div class="img-class">
 
-![](../static/assets/1st-image-1.jpg)
+![](/assets/1st-image-1.jpg)
 
-![](../static/assets/1st-image-2.jpg)
+![](/assets/1st-image-2.jpg)
 
 </div> 
 
