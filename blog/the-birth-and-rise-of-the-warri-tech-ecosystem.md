@@ -16,6 +16,10 @@ WARRI is a small cosmopolitan city in southern Nigeria famous for its once-boomi
 
 A technology ecosystem is an interdependent, independent network of various actors that combine to create innovative products and services in tech. Tech ecosystems benefit their host cities and neighboring communities in several ways. Take Silicon Valley for example. It has created over a hundred thousand direct, high-paying tech jobs with average annual salaries of $140,000 per person – twice the US national average. For each tech-job the sector creates, there are approximately 4.3 jobs created*(multiplier effect)*in other local goods and services sectors across all income groups, including lawyers, dentists, schoolteachers, cooks, and retail clerks, among many others. Warri can reap similar benefits if it has a thriving tech ecosystem in it like Silicon Valley. The idea to establish a tech ecosystem in Warri was conceived on July 22nd, 2016 when Paul Okoro*(a Warri based Tech Enthusiasts and Startup Founder)*attended a two-day technology conference*(TechPlus2016)*in Lagos. At that conference he saw for the first time how the various actors of a tech ecosystem interact to create awesomeness. He saw thousands of tech enthusiasts – developers, designers, startup founders, innovators, exhibitors, investors, gamers, etc. – from all works of life from different countries, come together under one roof to engage, learn and collaborate in tech. He instantly fell in love with the whole idea of a tech ecosystem and wanted one in his beloved city Warri. So there and then he made inquiries on what it would take to organize a large and successful tech gathering in Warri like TechPlus2016. He later realized that before Warri can host such a large tech conference she will first have a growing tech ecosystem that teems with thousands of tech enthusiasts. That was the beginning of Paul’s journey as Tech Ecosystem Architect and Champion.
 
+![](../static/assets/2nd-image.jpg)
+
+![](../static/assets/3rd-image.jpg)
+
 <!--EndFragment-->
 
 <!--StartFragment-->
