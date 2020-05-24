@@ -36,9 +36,9 @@ Like Paul, Edirin also wants to see a thriving tech ecosystem in Warri. As an in
 
 <div class="img-class">
 
-![](../static/assets/3rd-image-a.jpg)
+![](/assets/3rd-image-a.jpg)
 
-![](../static/assets/3rd-image-b.jpg)
+![](/assets/3rd-image-b.jpg)
 
 </div> 
 
@@ -46,9 +46,9 @@ The first WTN Tech Meetup was scheduled for November 25 2017 and boom “everywh
 
 <div class="img-class">
 
-![](../static/assets/4th-image-a.jpg)
+![](/assets/4th-image-a.jpg)
 
-![](../static/assets/4th-image-b.jpg)
+![](/assets/4th-image-b.jpg)
 
 </div> 
 
@@ -56,9 +56,9 @@ The following year (2018) saw the Warri tech community witness exponential growt
 
 <div class="img-class"> 
 
-![](../static/assets/5th-image-a.jpg)
+![](/assets/5th-image-a.jpg)
 
-![](../static/assets/5th-image-b.jpg)
+![](/assets/5th-image-b.jpg)
 
 </div> 
 
@@ -66,11 +66,11 @@ What follows next was a massive tech empowerment campaign in the city. Experienc
 
 <div class="img-class">
 
-![](../static/assets/6th-image-a.jpg)
+![](/assets/6th-image-a.jpg)
 
-![](../static/assets/6th-image-b.jpg)
+![](/assets/6th-image-b.jpg)
 
-![](../static/assets/6th-image-c.jpg)
+![](/assets/6th-image-c.jpg)
 
 </div> 
 
