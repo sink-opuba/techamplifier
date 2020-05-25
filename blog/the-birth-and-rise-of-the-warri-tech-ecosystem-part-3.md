@@ -60,7 +60,7 @@ Kelvin Omereshone *(Software Developer),* [Prince Darlignton Ekemini](https://tw
 
 **The Biggest Plugs**
 
-Bosun Tijani, Francis Sani, Anthony Sule, Maya Horgan,
+[Bosun Tijani](https://twitter.com/bosuntijani), [Francis Sani](https://twitter.com/francis_sani), [Anthony Sule](https://ng.linkedin.com/in/anthony-sule-056b365a), and [Maya Horgan](https://twitter.com/mayahorgan)
 
 **Non-Indigenous Brands who have supported the Ecosystem**
 
