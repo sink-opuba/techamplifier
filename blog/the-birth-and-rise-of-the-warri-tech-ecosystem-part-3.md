@@ -68,7 +68,7 @@ Kelvin Omereshone *(Software Developer),* [Prince Darlignton Ekemini](https://tw
 
 **Some top Nigerian Tech Experts who have spoken at a Tech Event in Warri**
 
-Maya Horgan, Aniedi Udoh-Ubong, Prosper Otemuyiwa, Celestine Omin, Nichole Yembra, Onaijte Emerho-Ugor, Cleopatra Douglas, Adeboro Odunlami, Adewale Abati, Gift Ugwuenu, Theodora Isola, Simona Cotin, Quincy Lancy, Ojiugo Uche,
+[Maya Horgan](https://twitter.com/mayahorgan), [Aniedi Udoh-Ubong](https://twitter.com/aniediudo), [Prosper Otemuyiwa](https://twitter.com/unicodeveloper), [Celestine Omin](https://twitter.com/cyberomin), [Nichole Yembra](https://twitter.com/MsNicholeYembra), Onaijte Emerho-Ugor, Cleopatra Douglas, Adeboro Odunlami, [Adewale Abati](https://twitter.com/Ace_KYD), [Gift Egwuenu](https://twitter.com/lauragift_), Theodora Isola, [Simona Cotin](https://twitter.com/simona_cotin), Quincy Lancy, Ojiugo Uche,
 
 **Diaspora Supporters**
 
