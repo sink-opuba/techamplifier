@@ -56,7 +56,7 @@ Kelvin Omereshone *(Software Developer),* [Prince Darlignton Ekemini](https://tw
 
 **Contributors**
 
-[Kendra Nnachi](https://twitter.com/KendraNnachi), [Chimdi Aneke](https://twitter.com/chimdinduaneke), [Collins Azuike](https://twitter.com/azuike1), [Monica Yeresha](https://twitter.com/MoniqueYeresha), [Zitu Blessing](https://twitter.com/zitudiary), [Audrey Mukoro](https://twitter.com/diaryofaudrey), Tchidi Nkem, Frank Waive, Flora, Orode Uduaghan, Tobore Adakaraza, Dayenfa Efiri, Charles Freeborn, Kelvin Fortea, Ruona Ugbuvu, Brozie Egola, Wisdom Aghogovia, Precious
+[Kendra Nnachi](https://twitter.com/KendraNnachi), [Chimdi Aneke](https://twitter.com/chimdinduaneke), [Collins Azuike](https://twitter.com/azuike1), [Monica Yeresha](https://twitter.com/MoniqueYeresha), [Zitu Blessing](https://twitter.com/zitudiary), [Audrey Mukoro](https://twitter.com/diaryofaudrey), Tchidi Nkem, [Frank Waive](https://twitter.com/FrankWaive), Flora, Orode Uduaghan, Tobore Adakaraza, Dayenfa Efiri, [Charles Freeborn](https://twitter.com/charliecodes), [Kelvin Fortea](https://twitter.com/@kelvinforteta), Ruona Ugbuvu, Brozie Egola, Wisdom Aghogovia, Precious
 
 **The Biggest Plugs**
 
