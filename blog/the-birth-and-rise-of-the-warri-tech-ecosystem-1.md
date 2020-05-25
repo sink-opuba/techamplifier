@@ -10,15 +10,15 @@ author: Paul Okoro
 authorrole: Co-Founder & Chief-Editor
 authorimage: ../static/assets/paul.jpg
 ---
-#### **\[Part II – A Small Group of Resilient Collaborators Transformed a City]**
-
 <!--StartFragment-->
+
+### \[Part II – A Small Group of Resilient Collaborators Transformed a City]
 
 *“Then God went down to see the city and the tower that the sons of men had built. God then said: Look! They are one people with one language, and this is what they have started to do. Now there is nothing that they may have in mind to do that will be impossible for them.” - Genesis 11: 5, 6*
 
 “**There is nothing that … will be impossible for them**.” Those were the words of the Almighty when he looked down from heaven to observe what some small group of determined men were doing some five thousand years ago. Had the Almighty not stopped those guys, they probably would  have succeeded in building the first skyscraper ever. The lesson from that Bible verse is clear: **\*nothing (except the Almighty) can stop a group of determined individuals who are united in thoughts and actions towards a common goal\****.*
 
-That Scriptural text helped Paul appreciate the power of collaboration and resilience. He became more determined to continue seeking like minded individuals in Warri to collaborate with, to build his dream tech ecosystem. Forging ahead, he formed a new social media platform called ‘Warri Startups Development Foundation’ (WAFSDEF) and started using it to propagate his vision online. 
+That Scriptural text helped Paul appreciate the power of collaboration and resilience. He became more determined to continue seeking like minded individuals in Warri to collaborate with, to build his dream tech ecosystem. Forging ahead, he formed a new social media platform called ‘Warri Startups Development Foundation’ ([WAFSDEF](twitter.com/wafsdef)) and started using it to propagate his vision online. 
 
 <div class="img-class">
 
@@ -28,7 +28,7 @@ That Scriptural text helped Paul appreciate the power of collaboration and resil
 
 </div> 
 
-One fateful day, Paul stumbled into a tweet by New Warri asking Waffirians to share their vision for a new Warri with them. Paul quickly jumped on the tweet and shared his vision for Tech Warri. Three weeks later, Paul met with Collins Azuike *(the guy behind the New Warri handle)* and shared more info with him. Paul asked Collins to link him up with Igho Tietie *(aka Warri Update)* a prominent social media influencer. Collins obliged Paul and the next day Paul had a meeting with Igho. Later, Igho introduced Paul to Tobore Adakaraza, a tech enthusiast and pastor shaping bright minds in Warri to pursue excellence and change the narrative on Warri. Pastor Tobore commended Paul for his vision and gave him some helpful advice. Later he linked him up with Oreva Akakasi *(a Warri based designer and startup founder at the time).* Few weeks later at a social gathering for entrepreneurs *(tagged The MIX)* organised by Connect Hub, Paul met other great minds in likes Mofe Pira, Anita Okiotor, and Tobore Didaskalos. He shared his vision of Tech Warri with them and they were in. The following day a meeting was scheduled at Chicken Republic Airport Road. Alex Okome and Nancy Ogbonnaya also joined the meeting and at the end of the day a new tech-startup community named ‘Delta Technology Entrepreneurship and Collaboration Hub’ – DTECH was formed. The plan was for DTECH to serve as the corporate entity that will drive the ecosystem's vision to reality. 
+One fateful day, Paul stumbled into a tweet by New Warri asking Waffirians to share their vision for a new Warri with them. Paul quickly jumped on the tweet and shared his vision for Tech Warri. Three weeks later, Paul met with [Collins Azuike](twitter.com/azuike1) *(the guy behind the New Warri handle)* and shared more info with him. Paul asked Collins to link him up with Igho Tietie *(aka Warri Update)* a prominent social media influencer. Collins obliged Paul and the next day Paul had a meeting with Igho. Later, Igho introduced Paul to Tobore Adakaraza, a tech enthusiast and pastor shaping bright minds in Warri to pursue excellence and change the narrative on Warri. Pastor Tobore commended Paul for his vision and gave him some helpful advice. Later he linked him up with Oreva Akakasi *(a Warri based designer and startup founder at the time).* Few weeks later at a social gathering for entrepreneurs *(tagged The MIX)* organised by Connect Hub, Paul met other great minds in likes Mofe Pira, Anita Okiotor, and Tobore Didaskalos. He shared his vision of Tech Warri with them and they were in. The following day a meeting was scheduled at Chicken Republic Airport Road. Alex Okome and Nancy Ogbonnaya also joined the meeting and at the end of the day a new tech-startup community named ‘Delta Technology Entrepreneurship and Collaboration Hub’ – DTECH was formed. The plan was for DTECH to serve as the corporate entity that will drive the ecosystem's vision to reality. 
 
 ![](/assets/2nd-images.jpg)
 
