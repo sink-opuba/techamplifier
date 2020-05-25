@@ -18,7 +18,7 @@ authorimage: ../static/assets/paul.jpg
 
 “**There is nothing that … will be impossible for them**.” Those were the words of the Almighty when he looked down from heaven to observe what some small group of determined men were doing some five thousand years ago. Had the Almighty not stopped those guys, they probably would  have succeeded in building the first skyscraper ever. The lesson from that Bible verse is clear: **\*nothing (except the Almighty) can stop a group of determined individuals who are united in thoughts and actions towards a common goal\****.*
 
-That Scriptural text helped Paul appreciate the power of collaboration and resilience. He became more determined to continue seeking like minded individuals in Warri to collaborate with, to build his dream tech ecosystem. Forging ahead, he formed a new social media platform called ‘Warri Startups Development Foundation’ (WAFSDEF) and started using it to propagate his vision online. 
+That Scriptural text helped Paul appreciate the power of collaboration and resilience. He became more determined to continue seeking like minded individuals in Warri to collaborate with, to build his dream tech ecosystem. Forging ahead, he formed a new social media platform called ‘Warri Startups Development Foundation’ ([WAFSDEF](https://twitter.com/wafsdef)) and started using it to propagate his vision online. 
 
 <div class="img-class">
 
