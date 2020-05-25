@@ -64,7 +64,7 @@ Kelvin Omereshone *(Software Developer),* [Prince Darlignton Ekemini](https://tw
 
 **Non-Indigenous Brands who have supported the Ecosystem**
 
-CC-Hub, Google Nigeria, Ingressive, Gatsby, WebFlow, Andela, Facebook,
+[CC-Hub](https://cchubnigeria.com/), [Google](https://google.com), [Ingressive](https://www.ingressive.co/), [Gatsby](https://www.gatsbyjs.org/), [WebFlow](https://webflow.com/), [Andela](https://andela.com/), [Facebook](https://facebook.com),
 
 **Some top Nigerian Tech Experts who have spoken at a Tech Event in Warri**
 
