@@ -5,7 +5,7 @@ title: The Birth and Rise of the Warri Tech Ecosystem (Part 3)
 description: '[Part III – The Unsung Heroes who transformed a city]'
 tag: news
 featuredimage: ../static/assets/techecoystem.jpg
-imagedescription: 'paul '
+imagedescription: Warri tech ecosystem overview
 author: Paul Okoro
 authorrole: Co-Founder & Chief Editor
 authorimage: ../static/assets/paul.jpg
