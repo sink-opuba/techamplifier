@@ -1,6 +1,6 @@
 ---
 path: warri-tech-ecosystem-emergence-2
-date: 2020-05-23T18:07:21.245Z
+date: 2020-05-26T19:00:00.000Z
 title: The Birth and Rise of the Warri Tech Ecosystem (Part 2)
 description: '[Part II – A Small Group of Resilient Collaborators Transformed a City]'
 tag: news
@@ -12,9 +12,11 @@ authorimage: ../static/assets/paul.jpg
 ---
 <!--StartFragment-->
 
-### \[A Small Group of Resilient Collaborators Transformed a City]
+### A Small Group of Resilient Collaborators made a difference
 
-*“Then God went down to see the city and the tower that the sons of men had built. God then said: Look! They are one people with one language, and this is what they have started to do. Now there is nothing that they may have in mind to do that will be impossible for them.” - Genesis 11: 5, 6*
+*(Continue from [Part I](https://techamplifier.africa/warri-tech-ecosystem-emergence-1))*
+
+*"Then God went down to see the city and the tower that the sons of men had built. God then said: Look! They are one people with one language, and this is what they have started to do. Now there is nothing that they may have in mind to do that will be impossible for them.” - Genesis 11: 5, 6*
 
 “**There is nothing that … will be impossible for them**.” Those were the words of the Almighty when he looked down from heaven to observe what some small group of determined men were doing some five thousand years ago. Had the Almighty not stopped those guys, they probably would  have succeeded in building the first skyscraper ever. The lesson from that Bible verse is clear: **\*nothing (except the Almighty) can stop a group of determined individuals who are united in thoughts and actions towards a common goal\****.*
 
@@ -78,6 +80,6 @@ What follows next was a massive tech empowerment campaign in the city. Experienc
 
 But there is more to the ecosystem than just a growing number of tech enthusiasts. There are now six technology hubs in the city, [Waffii Hub](https://warriinnovationhub.com/), [Skysenx Hub](https://skysenx.com/), [Connect Hub](https://connecthub.ng/) among others. The ecosystem also has lots of awesome tech startups with high-growth potentials. The likes of [LessStress](https://twitter.com/lessstressomm), [Linkorion](https://linkorion.com), [Nemo](https://nemo.com.ng/), [Perfect-Ikon](https://perfect-ikon.com), [Brainstack](https://brainstack.com/), [Soft-Kodes](https://soft-kodes.com/), [BookAMechanic](https://linkorion.com), [XchangeWaste](https://xchangewaste.com), [DataDepot](https://datadepot.com), [Unicus](https://www.unicus.live/), [Da-Manager](https://www.da-manager.com/), [Fujo.io](https://fujo.io), and many others. There are also some great law-firms and accounting-firms in the ecosystem providing startups with needed legal, financial services. [Amalgam Legal](http://www.amalgamlegal.com/) and Juricity are among the top startup-centric law firms around. An angel investor’s network (DAIN) will soon launch operations in the region. Plus the three tertiary institutions (Fupre, PTI, and COEWA) that are in the city are now more supportive and open to partnership opportunities between them and local tech communities. If things continue at this rate, the Warri tech ecosystem in the no-distant future will become a force to reckon with in the global tech space.
 
-But all this didn’t happen by chance. The growth we see today in the Warri tech ecosystem is a product of self-sacrifice, hard work, collaboration, and consistency. Some few individuals made huge selfless sacrifices to get the ecosystem off the ground and scale, some two-three years ago. They freely expended their time, energy, money, and influence to support the ecosystem’s growth. The final part of this article (Part II) is dedicated to the unsung heroes, supporters, and contributors who all helped brought the Warri tech ecosystem this far. Stay with me.
+But all this didn’t happen by chance. The growth we see today in the Warri tech ecosystem is a product of self-sacrifice, hard work, collaboration, and consistency. Some few individuals made huge selfless sacrifices to get the ecosystem off the ground and scale, some two-three years ago. They freely expended their time, energy, money, and influence to support the ecosystem’s growth. The final part of this article ([Part 3](https://techamplifier.africa/warri-tech-ecosystem-emergence-3)) is dedicated to the unsung heroes, supporters, and contributors who all helped brought the Warri tech ecosystem this far. Stay with me.
 
 <!--EndFragment-->
