@@ -4,15 +4,15 @@ date: 2020-05-25T13:09:01.870Z
 title: The Birth and Rise of the Warri Tech Ecosystem (Part 3)
 description: '[Part III – The Unsung Heroes who transformed a city]'
 tag: news
-featuredimage: ../static/assets/techecoystem.jpg
-imagedescription: Warri tech ecosystem overview
+featuredimage: ../static/assets/tech-amplifier-speaker.jpg
+imagedescription: Warri tech ecosystem heroes
 author: Paul Okoro
 authorrole: Co-Founder & Chief Editor
 authorimage: ../static/assets/paul.jpg
 ---
 <!--StartFragment-->
 
-### The Unsung Heroes who transformed a city
+### The Unsung Heroes transforming a city
 
 *“In time there arose over Egypt a new king, who did not know Joseph.” - Exodus 1: 8*
 
