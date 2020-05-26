@@ -14,9 +14,7 @@ authorimage: ../static/assets/paul.jpg
 
 ### The Unsung Tech Heroes transforming Warri
 
-*(Read part [Part 2](https://techamplifier.africa/warri-tech-ecosystem-emergence-2) here)*
-
-
+*(Read [Part 2](https://techamplifier.africa/warri-tech-ecosystem-emergence-2) here)*
 
 *“In time there arose over Egypt a new king, who did not know Joseph.” - Exodus 1: 8*
 
