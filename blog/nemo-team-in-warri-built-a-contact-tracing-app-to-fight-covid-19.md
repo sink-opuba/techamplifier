@@ -1,7 +1,7 @@
 ---
 path: covid2geda
 date: 2020-05-16T11:31:50.566Z
-title: Nemo Team in Warri Built a Contact Tracing App to Fight COVID-19
+title: 'Meet Covid2geda: The 1st Contact Tracing App in Africa built to Fight COVID-19'
 tag: news
 featuredimage: ../static/assets/7.jpg
 imagedescription: nemo team in warri innovation hub
