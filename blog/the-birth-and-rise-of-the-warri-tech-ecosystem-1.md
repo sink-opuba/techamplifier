@@ -14,7 +14,7 @@ authorimage: ../static/assets/paul.jpg
 
 ### A Small Group of Resilient Collaborators made a difference
 
-*(Read the previous Article - [Part I](https://techamplifier.africa/warri-tech-ecosystem-emergence-1) here)*
+*(Read [Part 1](https://techamplifier.africa/warri-tech-ecosystem-emergence-1) here)*
 
 *"Then God went down to see the city and the tower that the sons of men had built. God then said: Look! They are one people with one language, and this is what they have started to do. Now there is nothing that they may have in mind to do that will be impossible for them.” - Genesis 11: 5, 6*
 
