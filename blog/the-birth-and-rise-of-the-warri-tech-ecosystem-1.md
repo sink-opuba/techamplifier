@@ -1,7 +1,7 @@
 ---
 path: warri-tech-ecosystem-emergence-2
 date: 2020-05-26T19:00:00.000Z
-title: The Birth and Rise of the Warri Tech Ecosystem (Part 2)
+title: The Rise of Warri Tech Ecosystem (Part 2)
 description: '[Part II – A Small Group of Resilient Collaborators Transformed a City]'
 tag: news
 featuredimage: ../static/assets/1st-images.jpg
