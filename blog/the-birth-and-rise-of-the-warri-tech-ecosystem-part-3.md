@@ -1,7 +1,7 @@
 ---
 path: warri-tech-ecosystem-emergence-3
 date: 2020-05-26T18:00:00.000Z
-title: The Birth and Rise of the Warri Tech Ecosystem (Part 3)
+title: The Rise of Warri Tech Ecosystem (Part 3)
 description: '[Part III – The Unsung Heroes who transformed a city]'
 tag: news
 featuredimage: ../static/assets/tech-amplifier-speaker.jpg
