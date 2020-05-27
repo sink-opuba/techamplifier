@@ -1,7 +1,7 @@
 ---
 path: warri-tech-ecosystem-emergence-1
 date: 2020-05-26T19:08:00.000Z
-title: The Birth and Rise of the Warri Tech Ecosystem (Part 1)
+title: The Rise of Warri Tech Ecosystem (Part 1)
 description: '[Part I – One man Inspired by a Conference – Driven by Passion]'
 tag: news
 featuredimage: ../static/assets/1st-image.jpg
