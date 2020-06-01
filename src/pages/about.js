@@ -12,7 +12,7 @@ const Aboutpage = () => (
         <h1>About us</h1>
         <p>
           Tech Amplifier Africa is a media technology company that amplifies the
-          innovations and technology coming out of emerging ecosystems in
+          innovations and technologies coming out of emerging ecosystems in
           Africa.
         </p>
         <p>
