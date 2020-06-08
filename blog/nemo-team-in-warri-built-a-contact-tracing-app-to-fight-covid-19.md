@@ -29,4 +29,4 @@ Speaking with him, he also said that the app stores everybody you have come in c
 
 According to the CEO, Mavino Micheal, he said the initiative is a response to the current pandemic and might not be available after the pandemic. Regardless, we are relieved about this break and really look forward to when it would be in full use. You can download the app [here](https://www.covid2geda.org/covid.apk).
 
-Here's a link to watch the CEO giving a talk about it on [Youtube](https://youtu.be/3rn5-b-rWQo) and also check out the company's flagship product ([Nemo Messenger](https://nemo.com.ng)).
+Here's a link to a video about the app on [Channels TV](https://youtu.be/AhihCwUo8GU?t=1208) and also check out the company's flagship product ([Nemo Messenger](https://nemo.com.ng)).
