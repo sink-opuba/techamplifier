@@ -1,6 +1,6 @@
 ---
 path: covid2geda
-date: 2020-05-16T11:31:50.566Z
+date: 2020-06-08T15:00:00.000Z
 title: 'Meet COVID2GEDA: The 1st Contact Tracing App in Africa built to Fight COVID-19'
 tag: news
 featuredimage: ../static/assets/7.jpg
