@@ -1,5 +1,5 @@
 ---
-path: after waec what next
+path: afterwaec
 date: 2020-09-07T06:52:30.278Z
 title: After WAEC What Next?  - Warri Innovation Hub
 tag: 'news, events'
